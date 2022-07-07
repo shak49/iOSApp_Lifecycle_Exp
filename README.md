@@ -6,3 +6,9 @@
     
 2. App states
     - Handling iOS app states
+
+3. Notifications
+    - Local Notification
+    - push Notification
+
+
