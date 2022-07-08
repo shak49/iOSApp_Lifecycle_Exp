@@ -4,8 +4,6 @@
     - Programmatic UI
     - Multiple scene support
     
-2. App states
-    - Handling iOS app states
 
 
 
