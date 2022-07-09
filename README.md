@@ -2,7 +2,7 @@
 
 1. AppDelegate VS SceneDelegate
     - Programmatic UI
-    - Multiple scene support
+    - Functions
     
 
 
