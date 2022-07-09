@@ -2,7 +2,9 @@
 
 1. AppDelegate VS SceneDelegate
     - Programmatic UI
-    - Functions
+    - Local Notification
+    - Push Notification
+    
     
 
 
