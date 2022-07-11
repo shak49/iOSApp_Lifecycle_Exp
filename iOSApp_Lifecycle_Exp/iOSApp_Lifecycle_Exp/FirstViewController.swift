@@ -9,8 +9,6 @@ import UIKit
 
 class FirstViewController: UIViewController {
     //MARK: - Properties
-    let notManager = NotificationManager()
-    
     private let backView = UIView()
     private let _switch = UISwitch()
     private let datePicker = UIDatePicker()
@@ -19,7 +17,7 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         datePicker.isEnabled = false
-        notManager.requestNotificationAuth()
+        //notManager.requestNotificationAuth()
         setupUIElements()
     }
     
@@ -51,6 +49,6 @@ class FirstViewController: UIViewController {
     }
                              
     @objc func datePickerAction(_ sender: UIDatePicker!) {
-        notManager.launchNotification(date: sender.date)
+        NotificationManager.shared.launchNotification(date: sender.date)
     }
 }
