@@ -11,6 +11,7 @@ import UserNotifications
 
 class NotificationManager {
     //MARK: - Properties
+    static let shared = NotificationManager()
     let userNotCenter = UNUserNotificationCenter.current()
     
     //MARK: - Functions
