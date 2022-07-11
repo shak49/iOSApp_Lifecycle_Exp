@@ -8,21 +8,16 @@
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
-
+    let mainSceneTargetContentIdentifier = "com.apple.gallery.mainIdentifier"
     var window: UIWindow?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Capture the scene
         guard let windowScene = (scene as? UIWindowScene) else { return }
-        // Create new UIWindow using the window scene constructor which take in a window scene.
         let window = UIWindow(windowScene: windowScene)
-        // Create the view hierarchy
         let vc = FirstViewController()
-        vc.view.backgroundColor = .tintColor
+        vc.view.backgroundColor = .white
         let navigation = UINavigationController(rootViewController: vc)
-        // Set the root view from window
         window.rootViewController = navigation
-        // Set the window and make the key and visible
         self.window = window
         window.makeKeyAndVisible()
     }
@@ -56,4 +51,3 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
 }
-
