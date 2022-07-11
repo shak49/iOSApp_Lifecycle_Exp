@@ -46,7 +46,7 @@ extension AppDelegate: MessagingDelegate {
                 print("ERROR: \(error)")
             }
             guard let token = token else { return }
-            print("TOKEN: \(token)")
+            print("<<< TOKEN: \(token) >>>")
         }
     }
 }
