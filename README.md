@@ -4,6 +4,9 @@
     - Programmatic UI
     - Local Notification
     - Push Notification
+
+2. AppDelegate Methods
+ 
     
     
 
