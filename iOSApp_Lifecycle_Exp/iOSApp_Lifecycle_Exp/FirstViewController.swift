@@ -17,7 +17,6 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         datePicker.isEnabled = false
-        //notManager.requestNotificationAuth()
         setupUIElements()
     }
     

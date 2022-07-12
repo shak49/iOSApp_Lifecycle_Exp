@@ -16,7 +16,6 @@
 		6D3F7FAA287B99F60024CC11 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6D3F7FA9287B99F60024CC11 /* FirebaseFirestore */; };
 		6D3F7FAC287B99F60024CC11 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 6D3F7FAB287B99F60024CC11 /* FirebaseMessaging */; };
 		6D3F7FAE287C78160024CC11 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D3F7FAD287C78160024CC11 /* GoogleService-Info.plist */; };
-		6D3F7FB0287C7C330024CC11 /* AuthKey_32R2SBJBHJ.p8 in Resources */ = {isa = PBXBuildFile; fileRef = 6D3F7FAF287C7C330024CC11 /* AuthKey_32R2SBJBHJ.p8 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +29,6 @@
 		6D3F7FA42879FA200024CC11 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		6D3F7FA6287A344C0024CC11 /* iOSApp_Lifecycle_Exp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOSApp_Lifecycle_Exp.entitlements; sourceTree = "<group>"; };
 		6D3F7FAD287C78160024CC11 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		6D3F7FAF287C7C330024CC11 /* AuthKey_32R2SBJBHJ.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_32R2SBJBHJ.p8; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,8 +47,6 @@
 		6D3F7F762875FC380024CC11 = {
 			isa = PBXGroup;
 			children = (
-				6D3F7FAD287C78160024CC11 /* GoogleService-Info.plist */,
-				6D3F7FAF287C7C330024CC11 /* AuthKey_32R2SBJBHJ.p8 */,
 				6D3F7F812875FC380024CC11 /* iOSApp_Lifecycle_Exp */,
 				6D3F7F802875FC380024CC11 /* Products */,
 			);
@@ -67,6 +63,7 @@
 		6D3F7F812875FC380024CC11 /* iOSApp_Lifecycle_Exp */ = {
 			isa = PBXGroup;
 			children = (
+				6D3F7FAD287C78160024CC11 /* GoogleService-Info.plist */,
 				6D3F7FA6287A344C0024CC11 /* iOSApp_Lifecycle_Exp.entitlements */,
 				6D3F7F822875FC380024CC11 /* AppDelegate.swift */,
 				6D3F7F842875FC380024CC11 /* SceneDelegate.swift */,
@@ -145,7 +142,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D3F7F8F2875FC3B0024CC11 /* LaunchScreen.storyboard in Resources */,
-				6D3F7FB0287C7C330024CC11 /* AuthKey_32R2SBJBHJ.p8 in Resources */,
 				6D3F7F8C2875FC3B0024CC11 /* Assets.xcassets in Resources */,
 				6D3F7FAE287C78160024CC11 /* GoogleService-Info.plist in Resources */,
 			);

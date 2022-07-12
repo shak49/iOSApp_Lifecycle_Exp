@@ -30,7 +30,7 @@ class NotificationManager {
     func launchNotification(date: Date?) {
         let content = UNMutableNotificationContent()
         content.title = "Here you are!"
-        content.body = "This is a reminder which you set up. Take a look at app"
+        content.body = "This is a reminder which you set up. Take a look at the app"
         guard let date = date else { return }
         let dateComponents = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute, .second], from: date)
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
