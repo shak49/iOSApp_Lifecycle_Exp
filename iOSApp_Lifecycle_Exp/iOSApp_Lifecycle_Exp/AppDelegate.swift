@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        print("[ -didFinishLaunchingWithOptions- ]")
         FirebaseApp.configure()
         NotificationManager.shared.userNotCenter.delegate = self
         Messaging.messaging().delegate = self
