@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D39D490287F13CF009A1326 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6D39D48F287F13CF009A1326 /* FirebaseFirestore */; };
+		6D39D492287F13CF009A1326 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 6D39D491287F13CF009A1326 /* FirebaseMessaging */; };
 		6D3F7F832875FC380024CC11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F7F822875FC380024CC11 /* AppDelegate.swift */; };
 		6D3F7F852875FC380024CC11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F7F842875FC380024CC11 /* SceneDelegate.swift */; };
 		6D3F7F8C2875FC3B0024CC11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D3F7F8B2875FC3B0024CC11 /* Assets.xcassets */; };
 		6D3F7F8F2875FC3B0024CC11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3F7F8D2875FC3B0024CC11 /* LaunchScreen.storyboard */; };
 		6D3F7F992876290E0024CC11 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F7F982876290E0024CC11 /* FirstViewController.swift */; };
 		6D3F7FA52879FA200024CC11 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F7FA42879FA200024CC11 /* NotificationManager.swift */; };
-		6D3F7FAA287B99F60024CC11 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6D3F7FA9287B99F60024CC11 /* FirebaseFirestore */; };
-		6D3F7FAC287B99F60024CC11 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 6D3F7FAB287B99F60024CC11 /* FirebaseMessaging */; };
 		6D3F7FAE287C78160024CC11 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D3F7FAD287C78160024CC11 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -36,8 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D3F7FAC287B99F60024CC11 /* FirebaseMessaging in Frameworks */,
-				6D3F7FAA287B99F60024CC11 /* FirebaseFirestore in Frameworks */,
+				6D39D492287F13CF009A1326 /* FirebaseMessaging in Frameworks */,
+				6D39D490287F13CF009A1326 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,8 +93,8 @@
 			);
 			name = iOSApp_Lifecycle_Exp;
 			packageProductDependencies = (
-				6D3F7FA9287B99F60024CC11 /* FirebaseFirestore */,
-				6D3F7FAB287B99F60024CC11 /* FirebaseMessaging */,
+				6D39D48F287F13CF009A1326 /* FirebaseFirestore */,
+				6D39D491287F13CF009A1326 /* FirebaseMessaging */,
 			);
 			productName = iOSApp_Lifecycle_Exp;
 			productReference = 6D3F7F7F2875FC380024CC11 /* iOSApp_Lifecycle_Exp.app */;
@@ -125,7 +125,7 @@
 			);
 			mainGroup = 6D3F7F762875FC380024CC11;
 			packageReferences = (
-				6D3F7FA8287B99F60024CC11 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				6D39D48E287F13CF009A1326 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 6D3F7F802875FC380024CC11 /* Products */;
 			projectDirPath = "";
@@ -371,7 +371,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6D3F7FA8287B99F60024CC11 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		6D39D48E287F13CF009A1326 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
@@ -383,14 +383,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		6D3F7FA9287B99F60024CC11 /* FirebaseFirestore */ = {
+		6D39D48F287F13CF009A1326 /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6D3F7FA8287B99F60024CC11 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 6D39D48E287F13CF009A1326 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
 		};
-		6D3F7FAB287B99F60024CC11 /* FirebaseMessaging */ = {
+		6D39D491287F13CF009A1326 /* FirebaseMessaging */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6D3F7FA8287B99F60024CC11 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 6D39D48E287F13CF009A1326 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseMessaging;
 		};
 /* End XCSwiftPackageProductDependency section */
